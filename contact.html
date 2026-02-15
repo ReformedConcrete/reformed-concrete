@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact | Reformed Concrete LLC</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+</head>
+<body>
+
+  <div class="cursor-glow"></div>
+
+  <nav class="navbar">
+    <div class="logo">REFORMED CONCRETE</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+      <li><a href="colors.html">Colors</a></li>
+    </ul>
+  </nav>
+
+  <section class="contact-section">
+    <div class="contact-card reveal active">
+      
+      <div class="contact-info">
+        <p style="color: var(--accent-gold); letter-spacing: 3px; font-weight: 700; margin-bottom: 15px; text-transform: uppercase;">Direct Line</p>
+        <h2>Work with the Best.</h2>
+        
+        <div class="direct-links" style="margin: 30px 0;">
+          <a href="tel:7175171444" style="color: var(--white); text-decoration: none; font-size: 1.5rem; font-weight: 700; display: block; margin-bottom: 10px;">
+            (717) 517-1444
+          </a>
+          <p style="color: var(--accent); font-size: 0.8rem; letter-spacing: 1px;">TEXT OR CALL ANYTIME</p>
+        </div>
+
+        <div class="next-steps" style="margin-top: 40px; border-top: 1px solid var(--border); padding-top: 30px;">
+          <h4 style="color: var(--white); text-transform: uppercase; font-size: 0.9rem; margin-bottom: 15px; letter-spacing: 2px;">What to expect:</h4>
+          <ul style="list-style: none; color: var(--muted); font-size: 0.9rem; line-height: 2;">
+            <li>✓ Response within 24 hours</li>
+            <li>✓ Free on-site measurements</li>
+            <li>✓ Detailed digital estimate</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="contact-form-wrapper">
+        <form id="contact-form" class="contact-form">
+          <input type="text" name="name" placeholder="FULL NAME" required>
+          <input type="email" name="email" placeholder="EMAIL ADDRESS" required>
+          <input type="tel" name="phone" placeholder="PHONE NUMBER" required> <textarea name="message" placeholder="TELL US ABOUT YOUR PROJECT (SQ FOOTAGE, LOCATION, TYPE OF FINISH)" required></textarea>
+          <button type="submit">Send Inquiry</button>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <script src="main.js"></script>
+  <script src="contact.js"></script>
+</body>
+</html>
